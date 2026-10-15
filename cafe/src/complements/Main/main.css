@@ -1,0 +1,29 @@
+:root {
+    --butao-icon: #235852;
+    --hover-prim: #1a433e;
+    --fundo-meio: #F4F5F4;
+    --card-hero: #FFFFFF;
+    --placeH-tags: #E1E7E5;
+    --footer:  #1D2220;
+    --txt-principal: #1C1F1E;
+    --txt-2-subttl:  #5E6562;
+    --titulo-preco: bold;
+    --tags-links-naveg: Medium;
+    --texto-normal: 400;
+}
+
+body{
+    display: flex;
+    margin: 0;               
+    padding: 0;             
+    font-family: Plus Jakarta Sans;     
+    display: flex;           
+    flex-direction: column;  
+    min-height: 100vh; 
+}
+
+h1, h2, precos {
+    font-weight: var(--titulo-preco);
+    display: flex;
+}
+
